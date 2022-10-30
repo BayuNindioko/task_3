@@ -20,7 +20,7 @@ function displayDate() {
 //menambah list pada class training
 const tambah = document.getElementById('tambah');
 
-tambah.addEventListener('click', function () {
+tambah.addEventListener('click', function tambahList() {
     const ul= document.querySelector('.training ul');
     const liBaru=document.createElement('li');
     const teks = document.createTextNode('List baru berhasil ditambah!');
